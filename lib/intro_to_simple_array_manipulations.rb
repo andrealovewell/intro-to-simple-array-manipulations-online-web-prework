@@ -70,6 +70,6 @@ end
 famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
 deleted_robot = 2
 
-def using_delete_at(famous_robots, 2)
+def using_delete_at(famous_robots, deleted_robot)
   famous_robots.delete(deleted_robot)
 end
