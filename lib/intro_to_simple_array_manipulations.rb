@@ -66,3 +66,10 @@ instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 def using_delete(instructors, no_offense_steven)
   instructors.delete(no_offense_steven)
 end
+
+famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
+deleted_robot = "Ultron"
+
+def using_delete_at(famous_robots, deleted_robot)
+  famous_robots.delete(2, deleted_robot)
+end
